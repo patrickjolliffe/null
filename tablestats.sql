@@ -1,0 +1,1 @@
+select trunc(dbms_random.normal * 1000) from dual connect by level <=1e5;
